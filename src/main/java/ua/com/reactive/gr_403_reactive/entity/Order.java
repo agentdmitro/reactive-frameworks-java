@@ -10,7 +10,6 @@ import org.springframework.data.relational.core.mapping.Table;
 @AllArgsConstructor
 @Table("orders")
 public class Order {
-
     @Id
     private Long id;
 
